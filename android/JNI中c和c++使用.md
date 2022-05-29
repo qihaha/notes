@@ -97,4 +97,4 @@ add_library( # Sets the name of the library.
 ```
 
 ### 未解决的问题
-掉用socket函数的时候由于没有给权限，文件描述符会返回-1，但是通过erron获取错误码却没有获取信息，提示erron no value，不知道后续这种错误详情如何获取   
+1.掉用socket函数的时候由于没有给权限，文件描述符会返回-1，但是通过errno获取错误码却没有获取信息，提示erron no value，不知道后续这种错误详情如何获取   
